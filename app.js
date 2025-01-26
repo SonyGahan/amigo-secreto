@@ -1,7 +1,7 @@
 // Declaro el Array para almacenar los nombres de los amigos
 let listaAmigos = [];
 
-// Referencias a botones
+// Referencias a botones de la aplicación
 const botonSortear = document.getElementById("botonSortear");
 const botonNuevoJuego = document.getElementById("botonNuevoJuego");
 
@@ -48,7 +48,10 @@ function sortearAmigo() {
     // Deshabilita el botón de sorteo y habilita el de nuevo juego
     botonSortear.disabled = true;
     botonNuevoJuego.disabled = false;
-    botonNuevoJuego.classList.add("enabled");
+
+    // Agrega estilos para reflejar la desactivación
+    botonSortear.classList.add("disabled");
+    botonNuevoJuego.classList.remove("disabled");
 }
 
 // Función para reiniciar el juego
@@ -61,6 +64,9 @@ function nuevoJuego() {
     // Habilita el botón de sorteo y deshabilita el de nuevo juego
     botonSortear.disabled = false;
     botonNuevoJuego.disabled = true;
-    alert("El juego ha sido reiniciado. Puedes comenzar de nuevo.");
+
+    // Agrega estilos para reflejar la activación
+    botonSortear.classList.remove("disabled");
+    botonNuevoJuego.classList.add("disabled");
 }
 
