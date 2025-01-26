@@ -56,7 +56,7 @@ git clone https://github.com/sonygahan/amigo-secreto.git
 ---
 
 ## 📬 Contacto
-Si tienes alguna duda o sugerencia, puedes ponerte en contacto conmigo a través de mi correo electrónico o GitHub.
+Si tienes alguna duda o sugerencia, puedes ponerte en contacto conmigo a través de mi GitHub.
 
 ## GitHub: [SonyGahan](https://github.com/SonyGahan)
 
